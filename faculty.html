@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Content</title>
+        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="assets\img\logo.png" rel="icon">
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+
+   <body class="sb-nav-fixed" class="img js-fullheight" style="background-image: url(https://mcm.edu.ph/wp-content/uploads/2020/08/MCM-GARDEN-min-scaled.jpg);">
+        <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+            <!-- Navbar Brand-->
+            <a class="navbar-brand ps-3" href="tables.html">Menu</a>
+            <!-- Sidebar Toggle-->
+            <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
+            <!-- Navbar Search-->
+            <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+                
+            </form>
+           <!-- Navbar-->
+            <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        
+                        <li><a class="dropdown-item" href="index.html">Logout</a></li>
+                    </ul>
+                    </ul>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div id="layoutSidenav">
+            <div id="layoutSidenav_nav">
+                <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                    <div class="sb-sidenav-menu">
+                        <div class="nav">
+                            <div class="sb-sidenav-menu-heading">Announcement</div>
+                            <a class="nav-link" href="admin.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Activity Stream
+                            </a>
+                            <div class="sb-sidenav-menu-heading">List</div>
+                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Admin
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" href="student.html">Student</a>
+                                    <a class="nav-link" href="faculty.html">Faculty</a>
+                                </nav>
+                            </div>
+                            
+                            <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                    
+                                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                    </a>
+                                    <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
+                                        <nav class="sb-sidenav-menu-nested nav">
+                                          
+                                        </nav>
+                                    </div>
+                                    
+                                </nav>
+                            </div>
+                           
+                    </div>
+                     <div class="sb-sidenav-footer">
+                        
+                    </div>
+                </nav>
+            </div>
+            <div id="layoutSidenav_content">
+                <main>
+                   <div class="container-fluid px-4">
+                        <h1 class="mt-4">Faculty</h1>
+                        <ol class="breadcrumb mb-4">
+                            <li class="breadcrumb-item"><a href="admin.html">Home</a></li>
+                            <li class="breadcrumb-item active">College of Engineering and Architecture</li>
+                        </ol>
+                       
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <i class="fas fa-table me-1"></i>
+                               List
+                            </div>
+                           
+                            <div class="card-body">
+                                <table id="datatablesSimple">
+                                    <thead>
+                                        
+                                        <tr>
+                                            
+                                            <th>Name</th>
+                                            <th>Program</th>
+                                            <th>Course Load</th>
+                                            
+                                        </tr>
+                                    
+                                    </thead>
+                                    <tfoot>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Program</th>
+                                            <th>Course Load</th>
+                                        </tr>
+                                    </tfoot>
+                                    <tbody>
+                                        <tr>
+                                           
+                                            <td contenteditable="true">CRUZ, JOHN PAUL</td>
+                                            <td contenteditable="true">CPE</td>
+                                            <td contenteditable="true">CPE107L</td>
+                                        </div>
+                                        </tr>
+
+                                        <tr>
+                                            <td contenteditable="true">LAZARO, JOSE B. JR.</td>
+                                            <td contenteditable="true">CPE</td>
+                                            <td contenteditable="true">CPE113L</td>
+                                        </tr>
+                                        <tr>
+                                            <td contenteditable="true">REQUILLO, EMMY GRACE</td>
+                                            <td contenteditable="true">CPE</td>
+                                            <td contenteditable="true">CPE112L</td>
+                                        </tr>
+                                        <tr>
+                                            <td contenteditable="true">TABANAO, MARITES B.</td>
+                                            <td contenteditable="true">CPE</td>
+                                           <td contenteditable="true">CPE198</td>
+                                        </tr>
+                                        <tr>
+                                            <td contenteditable="true">AVENDAÑO, GLENN</td>
+                                            <td contenteditable="true">ECE</td>
+                                            <td contenteditable="true">NETA175-P1</td>
+                                        </tr>
+                                        <tr>
+                                            <td contenteditable="true">EMPAS, PAUL EMMANUEL</td>
+                                            <td contenteditable="true">ECE</td>
+                                            <td contenteditable="true">ECE131-2</td>
+                                        </tr>
+                                        <tr>
+                                            <td contenteditable="true">LEOPOLDO, MERIAM P.</td>
+                                            <td contenteditable="true">CE</td>
+                                            <td contenteditable="true">MATH71</td>
+                                        </tr>
+                                        <tr>
+                                            <td contenteditable="true">MORES, ALFRED</td>
+                                            <td contenteditable="true">EE</td>
+                                            <td contenteditable="true">CPE200D-2</td>
+                                        </tr>
+                                        <tr>
+                                            <td contenteditable="true">CALAMBA, MICHAEL</td>
+                                            <td contenteditable="true">ECE</td>
+                                            <td contenteditable="true">CPE200D-3</td>
+                                        </tr>
+                                        <tr>
+                                            <td contenteditable="true">LOLO, JAYSON</td>
+                                            <td contenteditable="true">EE</td>
+                                            <td contenteditable="true">EE181</td>
+                                        </tr>
+                                        <tr>
+                                            <td contenteditable="true">AUSTERO, CLINT</td>
+                                            <td contenteditable="true">EE</td>
+                                            <td contenteditable="true">EE106L-1</td>
+                                        </tr>
+                                        <tr>
+                                            <td contenteditable="true">RODRIGUEZ, MERYL MAE C.</td>
+                                            <td contenteditable="true">CE</td>
+                                            <td contenteditable="true">MATH72</td>
+                                        </tr>
+                                        <tr>
+                                            <td contenteditable="true">LINGAYA, ARJAN</td>
+                                            <td contenteditable="true">CHE</td>
+                                            <td contenteditable="true">IE103</td>
+                                        </tr>
+                                        <tr>
+                                            <td contenteditable="true">MOSQUEDA, KARLO ISAGANI</td>
+                                            <td contenteditable="true">CHE</td>
+                                           <td contenteditable="true">MATH150</td>
+                                        </tr>
+                                        <tr>
+                                            <td contenteditable="true">GARCILLANOSA, MAE M.</td>
+                                            <td contenteditable="true">ECE</td>
+                                            <td contenteditable="true">ECE101-4</td>
+                                        </tr>
+                                        <tr>
+                                            <td contenteditable="true">ANG, GERARD</td>
+                                            <td contenteditable="true">EE</td>
+                                            <td contenteditable="true">EE106L-1</td>
+                                        </tr>
+                                       
+                                    </tbody>
+                                </table>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                </main>
+               
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
+        <script src="js/datatables-simple-demo.js"></script>
+    </body>
+</html>
